@@ -2,9 +2,9 @@ Aplicação desenvolvida para teste de vaga front-end do grupo GCB.
 
 Foi solicitado:
 
-1- Desenvolver o site de acordo com o design abaixo utilizando ReactJS. 
-2- O site tem que ser 100% responsivo, iremos avaliar bem a responsividade.
-3- Criar a tela de cadastro baseada na tela inicial, o cadastro precisa receber os dados abaixo:
+1- Desenvolver o site de acordo com o design abaixo utilizando ReactJS. <br/>
+2- O site tem que ser 100% responsivo, iremos avaliar bem a responsividade. <br/>
+3- Criar a tela de cadastro baseada na tela inicial, o cadastro precisa receber os dados abaixo: <br/>
 
   a. Nome
 
@@ -22,6 +22,9 @@ Foi solicitado:
 
 * Não precisa utilizar banco de dados.
 
+Para acessar a aplicação, clonar o repositório e executar "npm-start" no terminal. 
+
+Abaixo o design utilizado de referência para construção da página.
 <img src="./src/assets/images/preview.png"/>
 
-Para acessar a aplicação, clonar o repositório e executar "npm-start" no terminal. 
+
