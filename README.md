@@ -22,9 +22,13 @@ Foi solicitado:
 
 * Não precisa utilizar banco de dados.
 
-Para acessar a aplicação, clonar o repositório e executar "npm-start" no terminal. 
+Para executar a aplicação, clonar o repositório e executar "npm-start" no terminal. 
 
-Abaixo o design utilizado de referência para construção da página.
+Para acessar o site, clique no link
+
+https://healthy-food-app.netlify.app/
+
+Abaixo o design utilizado de referência para a construção da página.
 <img src="./src/assets/images/preview.png"/>
 
 
