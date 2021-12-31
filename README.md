@@ -1,10 +1,6 @@
-# Getting Started with Create React App
+Aplicação desenvolvida para teste de vaga front-end do grupo GCB.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+<img src="./src/assets/images/preview.png"/>
 
 ### `npm start`
 
