@@ -12,9 +12,8 @@ export const JoinTag = styled.div`
 `; 
 
 export const EmailBar = styled.div` 
-    margin-left:10vw;
-    padding-top: 17vw;
-    width: 35vw;
+    width: 60vw;
+    padding: 15vw 10vw;
 
     h2 {
         color: #1d164d;
@@ -57,9 +56,5 @@ export const EmailBar = styled.div`
         margin:1.3vw;
         text-align: center;
         width: 6.5vw;
-    }
-
-    @media (orientation: portrait){
-        padding-top: 25vw;
     }
 `; 

@@ -61,9 +61,8 @@ export const FormTag = styled.form`
         border-radius:3px;
         color: white;
         font-family: 'Roboto', sans-serif;
-        font-size: 1vw;
-        font-weight: 500;
-        height: 3vw;
+        font-size: 1.3vw;
+        height: 2vw;
         margin: .2vw;
         text-align: center;
         width:15vw;
