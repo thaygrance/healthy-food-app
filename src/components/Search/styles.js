@@ -9,7 +9,7 @@ export const SearchTag = styled.div`
     background-size:contain;
     border-bottom: 2vw solid white;
     height:55vw;
-    margin-top:-6vw; 
+    margin-top:-8vw; 
     width:100%;
     `; 
 

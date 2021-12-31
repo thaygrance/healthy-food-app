@@ -5,7 +5,7 @@ export const HeaderTag = styled.header`
     display: flex;
     height:6vw;
     justify-content: space-between;
-    padding: 3vh 10vw;
+    padding: 3vw 10vw;
     width:100%;
 
     h1 {

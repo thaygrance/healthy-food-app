@@ -7,15 +7,14 @@ export const MainTag = styled.main`
     background-position: right top;
     background-repeat: no-repeat;
     background-size:contain;
-    border-bottom: 20px solid white;
-    height:55vw;
-    margin-top:-6vw; 
+    border-bottom: 25vw solid white;
+    height:80vw;
+    margin-top:-8vw; 
     width:100%;
 `; 
 
 export const FormTag = styled.form`
-    display: flex;
-    flex-direction: column;
+
     padding: 10vw;
     text-align: right;
     width: 50vw;
@@ -26,7 +25,6 @@ export const FormTag = styled.form`
         font-size: 1.8vw;
         font-weight: 700;
         letter-spacing:.1vw;
-        padding-bottom: 1.3vw; 
         text-align: left;
     }
 
@@ -35,7 +33,6 @@ export const FormTag = styled.form`
         font-family: 'Roboto', sans-serif;
         font-size: 1.4vw;
         font-weight: 500;
-        line-height: 1.5;
 
         input {
             border: 1px solid #1d164d; 
@@ -43,9 +40,8 @@ export const FormTag = styled.form`
             color: #000000;    
             font-family: 'Roboto', sans-serif;
             font-size:1.3vw;
-            height: 3vw;
-            margin: .5vw;
-            padding: .6vw;    
+            height: 2vw;
+            margin: .2vw;   
             width: 15vw;
         }
 
@@ -62,15 +58,13 @@ export const FormTag = styled.form`
     button {
         background: #BADC58;
         border: 1px solid  #BADC58;
-        border-radius:5px;
+        border-radius:3px;
         color: white;
         font-family: 'Roboto', sans-serif;
         font-size: 1vw;
         font-weight: 500;
         height: 3vw;
-        letter-spacing:.1vw;
-        margin: .5vw;
-        padding: .6vw;
+        margin: .2vw;
         text-align: center;
         width:15vw;
     }        
