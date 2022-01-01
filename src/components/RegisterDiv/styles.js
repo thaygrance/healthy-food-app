@@ -11,7 +11,7 @@ export const RegisterTag = styled.div`
     height:55vw;
     padding-left:10vw;
     margin-top:-8vw;
-    padding-top: 20vw; 
+    padding-top: 25vw; 
     width:100%;
    
     h2 {
