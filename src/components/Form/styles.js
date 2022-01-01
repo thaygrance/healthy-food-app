@@ -9,6 +9,7 @@ export const FormTag = styled.form`
 
     form {
         border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
         box-shadow: .3vw .6vw .6vw rgba(0, 0, 0, 0.1);
         padding-left:1.5vw;
     }
