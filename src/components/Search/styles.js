@@ -38,7 +38,7 @@ export const SearchTag = styled.div`
         font-family: 'Roboto', sans-serif;
         font-size:1.3vw;
         height: 3.5vw;
-        padding: .6vw;
+        padding: 0 1.5vw;
         width: 22vw;
     }
     
@@ -57,12 +57,5 @@ export const SearchTag = styled.div`
         img {
             width:1.3vw;
         }
-    }
-
-    @media (orientation: portrait){
-        margin-left:10vw;
-        padding-top: 20vw;
-        width: 30vw;
-
     }
 `; 

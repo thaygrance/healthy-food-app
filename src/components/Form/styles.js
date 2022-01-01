@@ -1,37 +1,22 @@
-import DivSearchImg from "../../assets/images/DivSearchImg.png";
 import styled from "styled-components";
 
-export const MainTag = styled.main`
-    background: white;
-    background-image:url(${DivSearchImg});
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-size:contain;
-    border-bottom: 25vw solid white;
-    height:80vw;
-    margin-top:-8vw; 
-    width:100%;
-`; 
-
 export const FormTag = styled.form`
+    background: white;
+    height:30vw;
+    width:100%;
+    padding: 4vw 10vw;
+    display: flex;
 
-    padding: 10vw;
-    text-align: right;
-    width: 50vw;
-
-    h4{
-        color: #1d164d;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.8vw;
-        font-weight: 700;
-        letter-spacing:.1vw;
-        text-align: left;
+    form {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: .3vw .6vw .6vw rgba(0, 0, 0, 0.1);
+        padding-left:1.5vw;
     }
 
     label {
         color: #1d164d;
         font-family: 'Roboto', sans-serif;
-        font-size: 1.4vw;
+        font-size: 1.8vw;
         font-weight: 500;
 
         input {
@@ -40,15 +25,41 @@ export const FormTag = styled.form`
             color: #000000;    
             font-family: 'Roboto', sans-serif;
             font-size:1.3vw;
-            height: 2vw;
-            margin: .2vw;   
-            width: 15vw;
+            height: 3.5vw;
+            margin: 1.5vw 1.5vw 0 1vw;   
+            padding: 0 1.5vw;
         }
 
+        input#name{
+            width: 25vw;
+        }
+        input#birthDate{
+            width: 15vw;
+        }
+        input#cpf{
+            width: 12vw;
+        }
+        input#cep{
+            width: 10vw;
+        }
+        input#address{
+            width: 20vw;
+        }
+        input#addressNumber{
+            width: 8vw;
+        }
+        input#neightborhood{
+            width: 15vw;
+        }
+        input#city {
+            width: 15vw;
+        }
+        input#state{
+            width: 8vw;
+        }
         input::placeholder{
             color: #b1aebf;
         }
-
         .Auth {
             background-color: #f1f1f1;
         }
@@ -61,9 +72,9 @@ export const FormTag = styled.form`
         border-radius:3px;
         color: white;
         font-family: 'Roboto', sans-serif;
-        font-size: 1.3vw;
-        height: 2vw;
-        margin: .2vw;
+        font-size: 1.7vw;
+        height: 3.5vw;
+        margin: 2vw 0 2vw 32vw;
         text-align: center;
         width:15vw;
     }        

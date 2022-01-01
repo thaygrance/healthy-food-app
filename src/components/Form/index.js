@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import { FormTag, MainTag } from './styles';
+import { FormTag } from './styles';
 
 export function Form() {
 
@@ -24,24 +24,24 @@ export function Form() {
   }
 
   function storageData (e){
-    localStorage.setItem('nome', document.getElementById('nome').value);
-    localStorage.setItem('dataNascimento', document.getElementById('dataNascimento').value);
+    localStorage.setItem('name', document.getElementById('name').value);
+    localStorage.setItem('birthDate', document.getElementById('birthDate').value);
     localStorage.setItem('cpf', document.getElementById('cpf').value);
     localStorage.setItem('cep', document.getElementById('cep').value);
-    localStorage.setItem('rua', document.getElementById('rua').value);
-    localStorage.setItem('numero', document.getElementById('numero').value);
-    localStorage.setItem('bairro', document.getElementById('bairro').value);
-    localStorage.setItem('cidade', document.getElementById('cidade').value);
+    localStorage.setItem('address', document.getElementById('address').value);
+    localStorage.setItem('addressNumber', document.getElementById('numero').value);
+    localStorage.setItem('neightborhoood', document.getElementById('neightborhoood').value);
+    localStorage.setItem('city', document.getElementById('city').value);
     localStorage.setItem('estado', document.getElementById('estado').value);
 
-    document.cookie = `nome=${document.getElementById('nome').value}`;
-    document.cookie = `dataNascimento=${document.getElementById('dataNascimento').value}}`;
+    document.cookie = `name=${document.getElementById('name').value}`;
+    document.cookie = `birthDate=${document.getElementById('birthDate').value}}`;
     document.cookie = `cpf=${document.getElementById('cpf').value}}`;
     document.cookie = `cep=${document.getElementById('cep').value}}`;
-    document.cookie = `rua=${document.getElementById('rua').value}}`;
+    document.cookie = `address=${document.getElementById('address').value}}`;
     document.cookie = `numero=${document.getElementById('numero').value}}`;
-    document.cookie = `bairro=${document.getElementById('bairro').value}}`;
-    document.cookie = `cidade=${document.getElementById('cidade').value}}`;
+    document.cookie = `neightborhoood=${document.getElementById('neightborhoood').value}}`;
+    document.cookie = `city=${document.getElementById('city').value}}`;
     document.cookie = `estado=${document.getElementById('estado').value}}`;
   } 
 
@@ -56,50 +56,47 @@ export function Form() {
   checkStorage()
 
   return (
-    <MainTag>
     <FormTag>
-    <h4>REGISTRE-SE</h4>
     <form onSubmit={handleSubmit(onSubmit)}>
       <label>
-        Nome:
-        <input id="nome" type="text" placeholder="Nome completo" required="required"/> <br/>
+        Name:
+        <input id="name" type="text" placeholder="Firs and last name" required="required"/> 
       </label>
       <label>
-        Data de Nascimento:
-        <input id="dataNascimento" type="date" required="required"/><br/>
+        Birth Date:
+        <input id="birthDate" type="date" required="required"/>
       </label>
       <label>
         CPF:
-        <input id="cpf" type="number" placeholder="12345678901" required="required"/><br/>
+        <input id="cpf" type="number" placeholder="12345678901" required="required"/>
       </label>
       <label>
         CEP:
-        <input id="cep" type="number" placeholder="76543210" required="required" {...register("cep")} onBlur={checkCEP} /><br/>
+        <input id="cep" type="number" placeholder="76543210" required="required" {...register("cep")} onBlur={checkCEP} />
       </label>
       <label>
-        Rua:
-        <input id="rua" className="Auth" type="text" {...register("address" )}/><br/>
+        Address:
+        <input id="address" className="Auth" type="text" {...register("address" )}/>
       </label>
       <label>
-        Número:
-        <input id="numero" type="number" placeholder="000" required="required" {...register("addressNumber" )}/><br/>
+        Address Number:
+        <input id="addressNumber" type="number" placeholder="000" required="required" {...register("addressNumber" )}/>
+      </label>        
+      <label>
+        Neighborhood:
+        <input id="neighborhood" className="Auth" type="text" {...register("neighborhood")}/>
       </label>
       <label>
-        Bairro:
-        <input id="bairro" className="Auth" type="text" {...register("neighborhood" )}/><br/>
+        City:
+        <input id="city" className="Auth" type="text" {...register("city" )}/>
       </label>
       <label>
-        Cidade:
-        <input id="cidade" className="Auth" type="text" {...register("city" )}/><br/>
+        State:
+        <input id="state" className="Auth" type="text" {...register("uf" )}/>
       </label>
-      <label>
-        Estado:
-        <input id="estado" className="Auth" type="text" {...register("uf" )}/><br/>
-      </label>
-      <button type="submit" onClick={storageData}>Enviar</button>
+      <button type="submit" onClick={storageData}>Submit</button>
     </form>
     </FormTag>
-    </MainTag>
   );
 };
 
