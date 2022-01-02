@@ -32,7 +32,7 @@ export const BlogTag = styled.div`
 
     div.Card {
         background: white;
-        border-radius: 5px;
+        border-radius: 3px;
         box-shadow: .3vw .6vw .6vw rgba(0, 0, 0, 0.1);
         height:32vw;
         margin: 1vw;

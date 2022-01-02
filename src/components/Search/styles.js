@@ -16,7 +16,7 @@ export const SearchTag = styled.div`
     export const SearchBar = styled.div` 
     margin-left:10vw;
     padding-top: 20vw;
-    width: 30vw;
+    width: 50vw;
 
     h2 {
         color: #1d164d;
@@ -28,7 +28,10 @@ export const SearchTag = styled.div`
     }
     
     div {
+        display:flex;
+        justify-content: flex-start;
         margin-top:1.5vw;
+        width:40vw;
     }
     
     input {
@@ -49,9 +52,9 @@ export const SearchTag = styled.div`
     button{
         background: #BADC58;
         border: 0;
-        border-radius:5px;
+        border-radius:3px;
         height:3.5vw;
-        margin-left: 15px;
+        margin-left: 1vw;
         width: 3.5vw;
 
         img {

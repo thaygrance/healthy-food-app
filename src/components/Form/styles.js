@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const FormTag = styled.form`
-    background: white;
+    background: #fafafc;
     height:30vw;
     width:100%;
     padding: 4vw 10vw;
     display: flex;
 
     form {
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        background: white;
         border-radius: 3px;
         box-shadow: .3vw .6vw .6vw rgba(0, 0, 0, 0.1);
         padding-left:1.5vw;

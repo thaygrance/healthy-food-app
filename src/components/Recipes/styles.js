@@ -36,7 +36,7 @@ export const RecipesTag = styled.div`
     `;
 
     export const Card = styled.div`
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.07);
     display:flex;
     height:16vw;
