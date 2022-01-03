@@ -1,4 +1,4 @@
-Aplicação desenvolvida para teste de vaga front-end do grupo GCB.
+Desafio de código front-end.
 
 Foi solicitado:
 
