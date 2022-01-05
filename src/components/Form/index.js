@@ -60,7 +60,7 @@ export function Form() {
     <form onSubmit={handleSubmit(onSubmit)}>
       <label>
         Name:
-        <input id="name" type="text" placeholder="Firs and last name" required="required"/> 
+        <input id="name" type="text" placeholder="First and last name" required="required"/> 
       </label>
       <label>
         Birth Date:
