@@ -59,6 +59,7 @@ export const SearchTag = styled.div`
 
         img {
             width:1.3vw;
+            margin:1vw;
         }
     }
 `; 
